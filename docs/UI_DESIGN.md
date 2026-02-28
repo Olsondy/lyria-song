@@ -29,6 +29,25 @@
 - Hover states: darker blue (`hover:bg-blue-600`)
 - Focus/active glow: blue shadow animation (`pulse-glow`)
 
+#### Indigo Theme Update (Homepage Buttons)
+
+Homepage action buttons now use an indigo-first accent layer, while existing
+`google-blue` tokens remain available for legacy/secondary controls.
+
+```css
+/* Homepage action accent */
+--color-indigo-primary: #4F46E5;   /* indigo-600 */
+--color-indigo-hover: #4338CA;     /* indigo-700 */
+--color-indigo-soft: #EEF2FF;      /* indigo-50 */
+```
+
+Current homepage button usage (`src/app/[locale]/page.tsx`):
+
+- Composer primary action: `bg-indigo-600 hover:bg-indigo-700 text-white`
+- Composer primary shadow: `shadow-indigo-600/20`, hover `shadow-indigo-600/40`
+- Randomize utility button: `hover:text-indigo-700 hover:bg-indigo-50/80`
+- Composer focus border: `border-indigo-600`
+
 #### Text
 - Main heading and key labels: `google-dark`
 - Supporting copy: `google-gray`
@@ -55,6 +74,21 @@
 | Action Row Gap | `gap-6` |
 | Pillar Card Grid | `mt-10`, `gap-0.9rem` |
 
+### Border Radius Standard (Global)
+
+Border radius must use a constrained scale and follow one baseline for bordered UI blocks.
+
+- Standard radius for bordered surfaces: `rounded-lg`
+- Mandatory usage: Card, Button, Container, Toolbar
+- Do not use arbitrary radius values such as `rounded-[32px]` on these components
+- `rounded-full` is only allowed for special pill/circle elements (badge/avatar/icon chip), not regular bordered blocks
+
+| Component | Radius Token | Tailwind Class |
+|-----------|--------------|----------------|
+| Card | `lg` | `rounded-lg` |
+| Button | `lg` | `rounded-lg` |
+| Container | `lg` | `rounded-lg`|
+
 ### Component Styling Conventions
 
 #### Header Navigation
@@ -67,7 +101,7 @@ className="fixed top-0 left-0 right-0 h-16 flex items-center justify-between
 #### Input Panel (Glass)
 
 ```tsx
-className="glass-input relative flex items-center p-4 md:p-6 rounded-[32px]
+className="glass-input relative flex items-center p-4 md:p-6 rounded-lg
   border transition-all duration-300"
 ```
 
@@ -81,7 +115,7 @@ className="glass-input relative flex items-center p-4 md:p-6 rounded-[32px]
 #### Primary CTA
 
 ```tsx
-className="bg-google-blue text-white px-10 py-4 rounded-full font-bold
+className="bg-google-blue text-white px-10 py-4 rounded-lg font-bold
   hover:shadow-lg hover:bg-blue-600 active:scale-95 transition-all duration-200"
 ```
 
@@ -143,6 +177,7 @@ Wave layer (`.bg-wave-container`, `.wave-line`) is used to avoid flat white back
 - Tailwind utility classes for layout and spacing
 - Theme tokens from `@theme` in `src/app/globals.css`
 - `lucide-react` for media/voice action icons
+- `react-icons` (`fc` + `ri`) for branded social auth icons (Google / X)
 - `motion` (`motion/react`) for lightweight interaction animation
 
 ## Related Files

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <!-- Main gradient: indigo → violet → fuchsia -->
+    <linearGradient id="logoGrad" x1="10" y1="10" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#4F46E5"/>
+      <stop offset="45%"  stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#C026D3"/>
+    </linearGradient>
+    <!-- Glow filter for premium feel -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!--
+    Single continuous stroke path:
+    1. Down the L's vertical bar (left side)
+    2. Along the L's horizontal base (bottom)
+    3. Flowing into a clockwise inward spiral (cochlea)
+    
+    The spiral makes roughly 1.5 turns, tightening inward.
+  -->
+  <path
+    d="
+      M 28,14
+      L 28,72
+      C 28,80 35,84 44,84
+      C 60,84 76,70 76,54
+      C 76,36 60,22 44,22
+      C 30,22 20,34 20,47
+      C 20,58 29,66 40,66
+      C 49,66 56,59 56,51
+      C 56,44 51,38 44,38
+      C 39,38 35,42 35,47
+      C 35,51 38,54 42,54
+    "
+    stroke="url(#logoGrad)"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#glow)"
+  />
+</svg>
