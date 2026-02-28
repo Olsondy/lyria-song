@@ -1,0 +1,115 @@
+{
+  "Metadata": {
+    "title": "LyriaSong",
+    "description": "Erstelle originale KI-generierte Musik mit LyriaSong. Verwandele deine Ideen in vollständige Songs mit Melodie, Lyrics und Gesang.",
+    "homeTitle": "LyriaSong – KI-Musik- & Song-Generator",
+    "homeDescription": "Generiere originale Songs mit KI. Verwandele deine Ideen in Sekunden in vollständige Musikstücke mit Melodie, Harmonie und Gesang.",
+    "createTitle": "Song erstellen – LyriaSong",
+    "createDescription": "Beginne deinen KI-generierten Song zu erstellen. Beschreibe deine Idee und lass die KI original Musik komponieren.",
+    "pricingTitle": "Preise – LyriaSong",
+    "pricingDescription": "Wähle einen Plan, der zu deinen kreativen Bedürfnissen passt. Flexible Preise für alle Levels.",
+    "resourcesTitle": "Ressourcen – LyriaSong",
+    "resourcesDescription": "Entdecke Anleitungen, Tipps und Ressourcen, um das Beste aus LyriaSong herauszuholen.",
+    "mySongsTitle": "Meine Songs – LyriaSong",
+    "mySongsDescription": "Zeige und verwalte alle deine KI-generierten Songs.",
+    "loginTitle": "Anmelden – LyriaSong",
+    "loginDescription": "Melde dich bei deinem LyriaSong-Konto an, um mit der Musikerstellung zu beginnen."
+  },
+  "Navigation": {
+    "home": "Startseite",
+    "create": "Erstellen",
+    "pricing": "Preise",
+    "resources": "Ressourcen",
+    "mySongs": "Meine Songs",
+    "login": "Anmelden",
+    "account": "Konto",
+    "signOut": "Abmelden"
+  },
+  "Auth": {
+    "login": "Anmelden",
+    "loginTitle": "Willkommen zurück",
+    "loginSubtitle": "Melde dich bei deinem Konto an, um fortzufahren",
+    "signOut": "Abmelden",
+    "continueWithGoogle": "Mit Google fortfahren",
+    "continueWithGithub": "Mit GitHub fortfahren",
+    "noAccount": "Noch kein Konto?",
+    "signUp": "Registrieren",
+    "hasAccount": "Bereits ein Konto?",
+    "loginRequired": "Anmeldung erforderlich",
+    "loginToCreate": "Bitte melde dich an, um Musik zu erstellen."
+  },
+  "HomePage": {
+    "title": "Musik mit KI erstellen",
+    "subtitle": "Verwandele deine Ideen in vollständige Songs mit Melodie, Lyrics und Gesang. Kein Instrument notwendig.",
+    "cta": "Jetzt loslegen",
+    "ctaSecondary": "Preise ansehen"
+  },
+  "CreatePage": {
+    "title": "Song erstellen",
+    "subtitle": "Beschreibe deine Idee und lass die KI originale Musik für dich komponieren.",
+    "promptLabel": "Song-Beschreibung",
+    "promptPlaceholder": "Beschreibe Stil, Stimmung oder Lyrics-Idee für deinen Song...",
+    "generateButton": "Song generieren",
+    "generating": "Dein Song wird erstellt...",
+    "loginRequired": "Bitte melde dich an, um Musik zu generieren."
+  },
+  "PricingPage": {
+    "title": "Preise",
+    "subtitle": "Flexible Pläne für alle Kreativen",
+    "monthly": "Monatlich",
+    "annual": "Jährlich",
+    "getStarted": "Jetzt starten",
+    "currentPlan": "Aktueller Plan",
+    "freePlan": "Kostenlos",
+    "starterPlan": "Starter",
+    "plusPlan": "Plus"
+  },
+  "ResourcesPage": {
+    "title": "Ressourcen",
+    "subtitle": "Entdecke Anleitungen, Tipps und Inspiration, um bessere Musik mit KI zu erstellen."
+  },
+  "MySongsPage": {
+    "title": "Meine Songs",
+    "createSong": "Song erstellen",
+    "noSongs": "Noch keine Songs.",
+    "noSongsDescription": "Erstelle deinen ersten KI-generierten Song!",
+    "statusComplete": "Abgeschlossen",
+    "statusProcessing": "Wird verarbeitet",
+    "statusFailed": "Fehlgeschlagen",
+    "untitled": "Ohne Titel",
+    "download": "Herunterladen",
+    "delete": "Löschen",
+    "deleteFailed": "Löschen fehlgeschlagen. Bitte versuche es erneut.",
+    "toast": {
+      "deleted": "Song erfolgreich gelöscht",
+      "deleteFailed": "Löschen fehlgeschlagen. Bitte versuche es erneut.",
+      "downloadStarted": "Download gestartet",
+      "downloadFailed": "Download fehlgeschlagen"
+    }
+  },
+  "Common": {
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "save": "Speichern",
+    "copy": "Kopieren",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuche es erneut.",
+    "retry": "Erneut versuchen"
+  },
+  "Footer": {
+    "tagline": "Erstelle originale KI-Musik. Verwandele deine Ideen in Minuten in professionelle Tracks.",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "Errors": {
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
+    "backHome": "Zurück zur Startseite",
+    "authError": "Authentifizierungsfehler",
+    "authErrorDescription": "Beim Anmelden ist ein Problem aufgetreten. Bitte versuche es erneut.",
+    "tryAgain": "Erneut versuchen"
+  }
+}

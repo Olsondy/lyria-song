@@ -1,0 +1,115 @@
+{
+  "Metadata": {
+    "title": "LyriaSong",
+    "description": "Create original AI-generated songs with LyriaSong. Turn your ideas into full tracks with melody, lyrics, and vocals.",
+    "homeTitle": "LyriaSong – AI Music & Song Generator",
+    "homeDescription": "Generate original songs with AI. Turn your ideas into full music tracks with melody, harmony, and vocals in seconds.",
+    "createTitle": "Create a Song – LyriaSong",
+    "createDescription": "Start creating your AI-generated song. Describe your idea and let the AI compose original music for you.",
+    "pricingTitle": "Pricing – LyriaSong",
+    "pricingDescription": "Choose a plan that fits your creative needs. Flexible pricing for all levels of creators.",
+    "resourcesTitle": "Resources – LyriaSong",
+    "resourcesDescription": "Explore guides, tips, and resources to get the most out of LyriaSong.",
+    "mySongsTitle": "My Songs – LyriaSong",
+    "mySongsDescription": "View and manage all your AI-generated songs.",
+    "loginTitle": "Login – LyriaSong",
+    "loginDescription": "Sign in to your LyriaSong account to start creating music."
+  },
+  "Navigation": {
+    "home": "Home",
+    "create": "Create",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "mySongs": "My Songs",
+    "login": "Login",
+    "account": "Account",
+    "signOut": "Sign out"
+  },
+  "Auth": {
+    "login": "Login",
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Sign in to your account to continue",
+    "signOut": "Sign out",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithGithub": "Continue with GitHub",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "hasAccount": "Already have an account?",
+    "loginRequired": "Login Required",
+    "loginToCreate": "Please log in to create music."
+  },
+  "HomePage": {
+    "title": "Create Music with AI",
+    "subtitle": "Turn your ideas into full songs with melody, lyrics, and vocals. No instruments needed.",
+    "cta": "Start Creating",
+    "ctaSecondary": "View Pricing"
+  },
+  "CreatePage": {
+    "title": "Create a Song",
+    "subtitle": "Describe your idea and let AI compose original music for you.",
+    "promptLabel": "Song Description",
+    "promptPlaceholder": "Describe the style, mood, or lyrics idea for your song...",
+    "generateButton": "Generate Song",
+    "generating": "Creating your song...",
+    "loginRequired": "Please log in to generate music."
+  },
+  "PricingPage": {
+    "title": "Pricing",
+    "subtitle": "Flexible plans for all creators",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "getStarted": "Get started",
+    "currentPlan": "Current Plan",
+    "freePlan": "Free",
+    "starterPlan": "Starter",
+    "plusPlan": "Plus"
+  },
+  "ResourcesPage": {
+    "title": "Resources",
+    "subtitle": "Guides, tips, and inspiration to help you create better music with AI."
+  },
+  "MySongsPage": {
+    "title": "My Songs",
+    "createSong": "Create Song",
+    "noSongs": "No songs yet.",
+    "noSongsDescription": "Create your first AI-generated song to get started!",
+    "statusComplete": "Complete",
+    "statusProcessing": "Processing",
+    "statusFailed": "Failed",
+    "untitled": "Untitled",
+    "download": "Download",
+    "delete": "Delete",
+    "deleteFailed": "Failed to delete. Please try again.",
+    "toast": {
+      "deleted": "Song deleted successfully",
+      "deleteFailed": "Failed to delete. Please try again.",
+      "downloadStarted": "Download started",
+      "downloadFailed": "Download failed"
+    }
+  },
+  "Common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "copy": "Copy",
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again.",
+    "retry": "Retry"
+  },
+  "Footer": {
+    "tagline": "Create original AI-generated music. Turn your ideas into professional tracks in minutes.",
+    "product": "Product",
+    "company": "Company",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "All rights reserved."
+  },
+  "Errors": {
+    "notFound": "Page not found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backHome": "Back to Home",
+    "authError": "Authentication Error",
+    "authErrorDescription": "There was an issue signing you in. Please try again.",
+    "tryAgain": "Try Again"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "Metadata": {
+    "title": "LyriaSong",
+    "description": "LyriaSongでオリジナルのAI音楽を作成しましょう。あなたのアイデアをメロディー、歌詞、ボーカル入りの完全な楽曲に変換します。",
+    "homeTitle": "LyriaSong – AI 音楽・楽曲ジェネレーター",
+    "homeDescription": "AIでオリジナル楽曲を生成。あなたのアイデアを数秒でメロディーとボーカル付きの完成楽曲に変換します。",
+    "createTitle": "楽曲を作成 – LyriaSong",
+    "createDescription": "AI生成楽曲の作成を開始しましょう。アイデアを説明するとAIが作曲します。",
+    "pricingTitle": "料金プラン – LyriaSong",
+    "pricingDescription": "あなたのクリエイティブな需要に合ったプランを選んでください。",
+    "resourcesTitle": "リソース – LyriaSong",
+    "resourcesDescription": "LyriaSongを最大限に活用するためのガイドとヒント。",
+    "mySongsTitle": "マイソング – LyriaSong",
+    "mySongsDescription": "AI生成したすべての楽曲を管理します。",
+    "loginTitle": "ログイン – LyriaSong",
+    "loginDescription": "LyriaSongアカウントにサインインして音楽制作を始めましょう。"
+  },
+  "Navigation": {
+    "home": "ホーム",
+    "create": "作成",
+    "pricing": "料金",
+    "resources": "リソース",
+    "mySongs": "マイソング",
+    "login": "ログイン",
+    "account": "アカウント",
+    "signOut": "サインアウト"
+  },
+  "Auth": {
+    "login": "ログイン",
+    "loginTitle": "おかえりなさい",
+    "loginSubtitle": "続けるにはサインインしてください",
+    "signOut": "サインアウト",
+    "continueWithGoogle": "Googleで続ける",
+    "continueWithGithub": "GitHubで続ける",
+    "noAccount": "アカウントをお持ちでない方は",
+    "signUp": "サインアップ",
+    "hasAccount": "すでにアカウントをお持ちの方は",
+    "loginRequired": "ログインが必要です",
+    "loginToCreate": "音楽を作成するにはログインしてください。"
+  },
+  "HomePage": {
+    "title": "AIで音楽を作ろう",
+    "subtitle": "あなたのアイデアをメロディー、歌詞、ボーカル付きの完全な楽曲に変換します。楽器不要。",
+    "cta": "今すぐ作成",
+    "ctaSecondary": "料金を見る"
+  },
+  "CreatePage": {
+    "title": "楽曲を作成",
+    "subtitle": "アイデアを説明するとAIがオリジナル音楽を作曲します。",
+    "promptLabel": "楽曲の説明",
+    "promptPlaceholder": "スタイル、ムード、歌詞のアイデアを説明してください...",
+    "generateButton": "楽曲を生成",
+    "generating": "楽曲を作成中...",
+    "loginRequired": "音楽を生成するにはログインしてください。"
+  },
+  "PricingPage": {
+    "title": "料金プラン",
+    "subtitle": "すべてのクリエイターに対応した柔軟なプラン",
+    "monthly": "月払い",
+    "annual": "年払い",
+    "getStarted": "始める",
+    "currentPlan": "現在のプラン",
+    "freePlan": "無料",
+    "starterPlan": "スターター",
+    "plusPlan": "プラス"
+  },
+  "ResourcesPage": {
+    "title": "リソース",
+    "subtitle": "AIでより良い音楽を作るためのガイド、ヒント、インスピレーション。"
+  },
+  "MySongsPage": {
+    "title": "マイソング",
+    "createSong": "楽曲を作成",
+    "noSongs": "まだ楽曲がありません。",
+    "noSongsDescription": "最初のAI生成楽曲を作成しましょう！",
+    "statusComplete": "完了",
+    "statusProcessing": "処理中",
+    "statusFailed": "失敗",
+    "untitled": "無題",
+    "download": "ダウンロード",
+    "delete": "削除",
+    "deleteFailed": "削除に失敗しました。もう一度お試しください。",
+    "toast": {
+      "deleted": "楽曲を削除しました",
+      "deleteFailed": "削除に失敗しました。もう一度お試しください。",
+      "downloadStarted": "ダウンロード開始",
+      "downloadFailed": "ダウンロード失敗"
+    }
+  },
+  "Common": {
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "save": "保存",
+    "copy": "コピー",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました。もう一度お試しください。",
+    "retry": "再試行"
+  },
+  "Footer": {
+    "tagline": "AIでオリジナル音楽を作成。あなたのアイデアを数分でプロのトラックに変換します。",
+    "product": "プロダクト",
+    "company": "会社",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyright": "全著作権所有。"
+  },
+  "Errors": {
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backHome": "ホームに戻る",
+    "authError": "認証エラー",
+    "authErrorDescription": "サインイン中に問題が発生しました。もう一度お試しください。",
+    "tryAgain": "再試行"
+  }
+}

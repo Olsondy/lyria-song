@@ -1,0 +1,115 @@
+{
+  "Metadata": {
+    "title": "LyriaSong",
+    "description": "Crea música original generada por IA con LyriaSong. Transforma tus ideas en canciones completas con melodía, letra y voz.",
+    "homeTitle": "LyriaSong – Generador de Música y Canciones con IA",
+    "homeDescription": "Genera canciones originales con IA. Transforma tus ideas en pistas completas con melodía, armonía y voz en segundos.",
+    "createTitle": "Crear una Canción – LyriaSong",
+    "createDescription": "Comienza a crear tu canción generada por IA. Describe tu idea y deja que la IA componga música original para ti.",
+    "pricingTitle": "Precios – LyriaSong",
+    "pricingDescription": "Elige el plan que se adapte a tus necesidades creativas. Precios flexibles para todos los niveles.",
+    "resourcesTitle": "Recursos – LyriaSong",
+    "resourcesDescription": "Explora guías, consejos y recursos para aprovechar al máximo LyriaSong.",
+    "mySongsTitle": "Mis Canciones – LyriaSong",
+    "mySongsDescription": "Visualiza y gestiona todas tus canciones generadas por IA.",
+    "loginTitle": "Iniciar sesión – LyriaSong",
+    "loginDescription": "Inicia sesión en tu cuenta de LyriaSong para comenzar a crear música."
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "create": "Crear",
+    "pricing": "Precios",
+    "resources": "Recursos",
+    "mySongs": "Mis Canciones",
+    "login": "Iniciar sesión",
+    "account": "Cuenta",
+    "signOut": "Cerrar sesión"
+  },
+  "Auth": {
+    "login": "Iniciar sesión",
+    "loginTitle": "Bienvenido de nuevo",
+    "loginSubtitle": "Inicia sesión en tu cuenta para continuar",
+    "signOut": "Cerrar sesión",
+    "continueWithGoogle": "Continuar con Google",
+    "continueWithGithub": "Continuar con GitHub",
+    "noAccount": "¿No tienes cuenta?",
+    "signUp": "Registrarse",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "loginRequired": "Inicio de sesión requerido",
+    "loginToCreate": "Por favor, inicia sesión para crear música."
+  },
+  "HomePage": {
+    "title": "Crea Música con IA",
+    "subtitle": "Transforma tus ideas en canciones completas con melodía, letra y voz. No necesitas instrumentos.",
+    "cta": "Comenzar",
+    "ctaSecondary": "Ver precios"
+  },
+  "CreatePage": {
+    "title": "Crear una Canción",
+    "subtitle": "Describe tu idea y deja que la IA componga música original para ti.",
+    "promptLabel": "Descripción de la canción",
+    "promptPlaceholder": "Describe el estilo, estado de ánimo o idea de letra para tu canción...",
+    "generateButton": "Generar Canción",
+    "generating": "Creando tu canción...",
+    "loginRequired": "Por favor, inicia sesión para generar música."
+  },
+  "PricingPage": {
+    "title": "Precios",
+    "subtitle": "Planes flexibles para todos los creadores",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "getStarted": "Comenzar",
+    "currentPlan": "Plan actual",
+    "freePlan": "Gratis",
+    "starterPlan": "Starter",
+    "plusPlan": "Plus"
+  },
+  "ResourcesPage": {
+    "title": "Recursos",
+    "subtitle": "Explora guías, consejos e inspiración para crear mejor música con IA."
+  },
+  "MySongsPage": {
+    "title": "Mis Canciones",
+    "createSong": "Crear Canción",
+    "noSongs": "Aún no hay canciones.",
+    "noSongsDescription": "¡Crea tu primera canción generada por IA!",
+    "statusComplete": "Completada",
+    "statusProcessing": "Procesando",
+    "statusFailed": "Fallida",
+    "untitled": "Sin título",
+    "download": "Descargar",
+    "delete": "Eliminar",
+    "deleteFailed": "Error al eliminar. Por favor, inténtalo de nuevo.",
+    "toast": {
+      "deleted": "Canción eliminada correctamente",
+      "deleteFailed": "Error al eliminar. Por favor, inténtalo de nuevo.",
+      "downloadStarted": "Descarga iniciada",
+      "downloadFailed": "Error en la descarga"
+    }
+  },
+  "Common": {
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "copy": "Copiar",
+    "loading": "Cargando...",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "retry": "Reintentar"
+  },
+  "Footer": {
+    "tagline": "Crea música original con IA. Transforma tus ideas en pistas profesionales en minutos.",
+    "product": "Producto",
+    "company": "Empresa",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyright": "Todos los derechos reservados."
+  },
+  "Errors": {
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backHome": "Volver al inicio",
+    "authError": "Error de autenticación",
+    "authErrorDescription": "Hubo un problema al iniciar sesión. Por favor, inténtalo de nuevo.",
+    "tryAgain": "Reintentar"
+  }
+}
