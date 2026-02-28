@@ -1,13 +1,5 @@
 # LyriaSong
 
-New app rebuilt in `lyria-song`, using `backup-project` only as reference.
-Core migration decisions:
-
-- Keep all changes in this project only
-- Remove Supabase client usage from app architecture
-- Use `Drizzle ORM + PostgreSQL` for data access
-- Use `Better Auth` for authentication/session management
-
 ## Tech Stack
 
 - Next.js 16 (App Router)
